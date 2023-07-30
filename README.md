@@ -1,0 +1,1 @@
+The task of this project is to create a landing page based off a final product image from The Odin Project. The purpose of this project is to showcase my understanding of flexbox using HTML & CSS.
