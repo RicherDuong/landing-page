@@ -1,0 +1,30 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  display: flex;  /* Turn header into a flex container */
+  justify-content: space-between;  /* Space in between left and right portions */
+  align-items: center;
+  background-color: #1F2937;
+  padding: 0 200px;
+}
+
+h1 {
+  color: #F9FAF8;
+  font-size: 24px;
+}
+
+.right ul {
+  display: flex;
+  list-style-type: none;  /* Remove bullet points */
+  margin: 0;  /* Reset margin */
+  padding: 0;  /* Reset padding */
+  gap: 10px;
+  font-size: 18px;
+}
+
+.right ul li a {  /* Target all hyperlinks */
+  color: #E5E7EB;
+  text-decoration: none;  /* Remove underlines */
+}
