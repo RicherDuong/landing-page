@@ -2,7 +2,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-header {
+.header {
   display: flex;  /* Turn header into a flex container */
   justify-content: space-between;  /* Space in between left and right portions */
   align-items: center;
