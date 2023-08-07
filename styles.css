@@ -1,15 +1,10 @@
 body {
   font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-.header {
-  display: flex;  /* Turn header into a flex container */
-  justify-content: space-between;  /* Space in between left and right portions */
-  align-items: center;
-  background-color: #1F2937;
-  padding: 0 200px;
-}
-
+/* Header */
 h1 {
   color: #F9FAF8;
   font-size: 24px;
@@ -27,4 +22,103 @@ h1 {
 .right ul li a {  /* Target all hyperlinks */
   color: #E5E7EB;
   text-decoration: none;  /* Remove underlines */
+}
+
+.container {
+  display: flex;  /* Turn header into a flex container */
+  justify-content: space-between;  /* Space in between left and right portions */
+  align-items: center;
+  background-color: #1F2937;
+  padding: 0 200px;
+}
+
+.hero-container {
+  display: flex; /* turn hero-main into a flex container */
+  justify-content: space-between; /* creates space between the text and image placeholder */
+  align-items: center; /* center the items vertically */
+  background-color: #1F2937;
+  padding: 120px 200px;
+}
+
+.hero-main {
+  flex: 1;  /* Take up remaining space in container */
+}
+
+.hero-main-text {
+  font-size: 48px;
+  font-weight: 800;
+  color: #F9FAF8;
+  margin-top: -10px;
+  margin-bottom: -12px;
+}
+
+.hero-secondary-text {
+  font-size: 18px;
+  color: #E5E7EB;
+  width: 460px;
+}
+
+.sign-up {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  border: 0;
+  border-radius: 10px;
+  padding: 10px 30px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.image-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 530px;
+  height: 240px;
+  font-size: 18px;
+  color: #E5E7EB;
+  background-color: #898b8e;
+}
+
+/* Some Random Information */
+.section-1 {
+  background-color: #ffffff;
+}
+
+.information-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  font-weight: bold;
+  color: #1F2937;
+  margin-top: 50px;
+}
+
+.section-1-container {
+  display: flex;  /* Turn header into a flex container */
+  justify-content: space-between;  /* Space in between left and right portions */
+  align-items: center;
+  padding: 30px 310px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.border-image {
+  width: 160px;
+  height: 160px;
+  border-color: #3882F6;
+  border-style: solid;
+  border-radius: 15px;
+  border-width: 4px;
+}
+
+.text {
+  width: 160px;
+  color: #898b8e;
+  text-align: center;
+  font-size: 18px;
 }
